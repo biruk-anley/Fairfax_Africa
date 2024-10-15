@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #5c9f24;
+  color: #025a9f;
   text-decoration: none;
 }
 
 a:hover {
-  color: #74c92d;
+  color: #2d6896;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5c9f24;
+  background: #025a9f;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -69,14 +69,14 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(255, 255, 255, 0.75);
   transition: all 0.5s;
   z-index: 997;
   height: 80px;
 }
 
 #header .logo {
-  font-size: 28px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -90,7 +90,8 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  /* max-height: 60px; */
+  display: flex;
 }
 
 /*--------------------------------------------------------------
@@ -150,7 +151,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #5c9f24;
+  background-color: #025a9f;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -178,13 +179,13 @@ h6 {
   color: #fff;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
-  border: 2px solid #5c9f24;
+  border: 2px solid #025a9f;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5c9f24;
+  background: #025a9f;
 }
 
 .navbar .getstarted:hover:before,
@@ -226,7 +227,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 .navbar .dropdown:hover>ul {
@@ -271,7 +272,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 @media (max-width: 991px) {
@@ -325,7 +326,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 .navbar-mobile>ul>li {
@@ -342,7 +343,7 @@ h6 {
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #5c9f24;
+  color: #025a9f;
   padding-left: 15px;
 }
 
@@ -373,7 +374,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -428,17 +429,18 @@ h6 {
 
 #hero h2 {
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #hero h2 span {
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 #hero p {
-  width: 80%;
+  width: 100%;
+  font-size: 18px;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
@@ -509,7 +511,7 @@ h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #5c9f24;
+  background: #025a9f;
 }
 
 #hero .btn-get-started {
@@ -527,8 +529,8 @@ h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   text-transform: uppercase;
-  border: 2px solid #5c9f24;
-  background: #5c9f24;
+  border: 2px solid #025a9f;
+  background: #025a9f;
 }
 
 #hero .btn-get-started:hover {
@@ -545,7 +547,7 @@ h6 {
 
 @media (min-width: 1024px) {
   #hero p {
-    width: 60%;
+    width: 100%;
   }
 
   #hero .carousel-control-prev,
@@ -576,7 +578,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 .section-title p {
@@ -612,7 +614,7 @@ section {
 .about .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 .about .content .icon-box p {
@@ -658,7 +660,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 44px;
-  color: #5c9f24;
+  color: #025a9f;
   float: left;
   line-height: 0;
 }
@@ -739,7 +741,7 @@ section {
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  color: #5c9f24;
+  color: #025a9f;
   overflow: hidden;
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
 }
@@ -767,7 +769,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 .services .title::after {
@@ -776,7 +778,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #5c9f24;
+  background: #025a9f;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -818,7 +820,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #5c9f24;
+  background: #025a9f;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -860,7 +862,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #5c9f24;
+  background: #025a9f;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -973,11 +975,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5c9f24;
+  border: 1px solid #025a9f;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5c9f24;
+  background-color: #025a9f;
 }
 
 .portfolio-details .portfolio-info {
@@ -1085,7 +1087,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 .team .member .social i {
@@ -1116,7 +1118,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #5c9f24;
+  color: #025a9f;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1148,7 +1150,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #5c9f24;
+  color: #025a9f;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1167,8 +1169,8 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 4px;
-  border: 2px solid #5c9f24;
-  color: #5c9f24;
+  border: 2px solid #025a9f;
+  color: #025a9f;
   font-size: 14px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
@@ -1177,12 +1179,12 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #5c9f24;
+  background: #025a9f;
   color: #fff;
 }
 
 .pricing .recommended {
-  background: #5c9f24;
+  background: #025a9f;
 }
 
 .pricing .recommended h3,
@@ -1202,7 +1204,7 @@ section {
 .pricing .recommended .btn-buy:hover {
   background: #fff;
   border-color: #fff;
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 /*--------------------------------------------------------------
@@ -1270,7 +1272,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1299,7 +1301,7 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 .contact .contact-info address,
@@ -1321,7 +1323,7 @@ section {
 }
 
 .contact .contact-info a:hover {
-  color: #5c9f24;
+  color: #025a9f;
 }
 
 .contact .contact-address,
@@ -1384,11 +1386,11 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #5c9f24;
+  border-color: #025a9f;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #5c9f24;
+  background: #025a9f;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
@@ -1533,7 +1535,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #5c9f24;
+  background: #025a9f;
   color: #fff;
   text-decoration: none;
 }
@@ -1607,7 +1609,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #5c9f24;
+  background: #025a9f;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
