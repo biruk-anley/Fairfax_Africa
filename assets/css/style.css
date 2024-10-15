@@ -86,12 +86,12 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #000000;
 }
 
 #header .logo img {
-  /* max-height: 60px; */
-  display: flex;
+  max-height: 60px;
+
 }
 
 /*--------------------------------------------------------------
@@ -129,8 +129,8 @@ h6 {
   padding: 0 4px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.7);
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
   white-space: nowrap;
   transition: 0.3s;
   text-transform: uppercase;
@@ -168,7 +168,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: #1c0606b3;
 }
 
 .navbar .getstarted,
@@ -176,8 +176,8 @@ h6 {
   padding: 8px 25px;
   margin-left: 12px;
   border-radius: 4px;
-  color: #fff;
-  font-weight: 400;
+  color: #260404;
+  font-weight: 700;
   font-family: "Poppins", sans-serif;
   border: 2px solid #025a9f;
 }
