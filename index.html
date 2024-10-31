@@ -63,9 +63,9 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Sector</a></li>
-          <li><a class="nav-link scrollto" href="#services">Advisory Service</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Sectors</a></li>
+          <li><a class="nav-link scrollto" href="#team">Advisory Service</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
          
         </ul>
@@ -316,67 +316,142 @@
     </section><!-- End Clients Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
+    <section id="services" class="Jok">
+      <style>
+        .derf {
+          text-align: center;
+          width: -webkit-fill-available;
+          margin-top: 20px;
+          }
+    
+        .Jok {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 0.7rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
 
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Metebabaer has fully functional service which provide different sercurity service some of them are listed below .</p>
-        </div>
-        <div id="container" style="left: 0px;">
-      <section id="content">
-          <div id="our-work">
-          <ul>
-              <li style="padding: 5px;"><a href="project-detail-page.html"><img src="./assets/img/slide/1.jpg " alt="Pyaari"><div class="overlay"><summary><h2>198seven</h2><h3>Pencil work, Adobe illustrator</h3></summary><div class="loves"><span>77</span></div></div></a></li>
-              <li style="padding: 5px;"><a href="project-detail-page.html"><img src="./assets/img/slide/10.jpg" alt="Pyaari"><div class="overlay"><summary><h2>Chaosina</h2><h3>Identity, Website &amp; Photography</h3></summary><div class="loves"><span>22</span></div></div></a></li>
-              <li style="padding: 5px;"><a href="project-detail-page.html"><img src="./assets/img/slide/3d-solar-pannels-project-energy-saving.jpg" alt="Pyaari"><div class="overlay"><summary><h2>198seven</h2><h3>Website &amp; Brandind</h3></summary><div class="loves"><span>12</span></div></div></a></li>
-              <li style="padding: 5px;"><a href="project-detail-page.html"><img src="./assets/img/slide/agriculture-food-production-concept-with-tractor-machine-silos-irrigation-system.jpg" alt="Pyaari"><div class="overlay"><summary><h2>Illustration</h2><h3>Pencil work, Adobe illustrator</h3></summary><div class="loves"><span>77</span></div></div></a></li>
-              <li style="padding: 5px;"><a href="project-detail-page.html"><img src="./assets/img/slide/heavy-machinery-used-construction-industry-engineering (1).jpg" alt="Pyaari"><div class="overlay"><summary><h2>Chaosina</h2><h3>Identity, Website &amp; Photography</h3></summary><div class="loves"><span>22</span></div></div></a></li>
-              <li style="padding: 5px;"><a href="project-detail-page.html"><img src="./assets/img/slide/14.jpg" alt="Pyaari"><div class="overlay"><summary><h2>198seven</h2><h3>Website &amp; Brandind</h3></summary><div class="loves"><span>12</span></div></div></a></li><br>
+    .Jok .card {
+      position: relative;
+      flex: 1 1 calc(33.33% - 1rem);
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
 
-          </ul>
-          </div>
-      </section>
-    </div><!-- container -->
+    .Jok .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
 
-        <!-- <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-file-lock2"></i></div>
-            <h4 class="title"><a href="">Quality Security Service</a></h4>
-            <p class="description">We will provide Quality security and security related services that a client will trust</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-cone"></i></div>
-            <h4 class="title"><a href="">Construction Security</a></h4>
-            <p class="description">manned guards based at your premises for any construction sites.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-person-fill"></i></div>
-            <h4 class="title"><a href="">Trainee man</a></h4>
-            <p class="description">We will Supply traine man for all sectors and company's</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-star"></i></div>
-            <h4 class="title"><a href="">Special offers</a></h4>
-            <p class="description">Security service for any mobile things</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Hotel Security</a></h4>
-            <p class="description">For the safety and protection of your clients and customers as well as to aid in a restful night's sleep for your guests, we offer hotel staffed perimeter security and full hotel security solutions.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Event Security</a></h4>
-            <p class="description">For all of your event needs, we offer comprehensive man guarding security services. We provide understanding of needs and deliver as promised for 24/7</p>
-          </div>
-        </div> -->
+    .Jok .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
 
+    /* Card content overlay initially hidden */
+    .Jok .card-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color:#025b9fa2; /* Blue overlay */
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    /* Show card content on hover */
+    .Jok .card:hover .card-content {
+      opacity: 1;
+    }
+
+    .Jok .card-content h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .Jok .card-content p {
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 0 1rem;
+    }
+    
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+          .Jok .card {
+            flex: 1 1 calc(50% - 1rem);
+          }
+        }
+    
+        @media (max-width: 480px) {
+          .Jok .card {
+            flex: 1 1 100%;
+          }
+        }
+      </style>
+      <div class="section-title derf" >
+        <h2>Sectors</h2>
+        <p>We are committed to strategically focused investments that drive innovation and foster long-term growth.</p>
       </div>
-    </section><!-- End Services Section -->
+      <div class="card">
+        <img src="./assets/img/slide/1.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Manufacturing</h3>
+          <h >Manufacturing</h>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/slide/agriculture-food-production-concept-with-tractor-machine-silos-irrigation-system.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Agriculture</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/slide/10.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Energy</h3>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/slide/9.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Infrastructure</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/slide/hotel.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Hotel & Resorts</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/slide/Mining.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Mining</h3>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+    <!-- End Services Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
+    <section id="team" class="why-us">
       <div class="container">
 
         <div class="section-title">
@@ -418,7 +493,7 @@
 
     
     
-    <div class="container-xxl py-5">
+    <div id="contact"  class="container-xxl py-5">
       <div class="container">
           <div class="row g-5">
               <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
