@@ -19,16 +19,6 @@
     }
   }
 
-  function displayError(thisForm, error) {
-    let loading = thisForm.querySelector('.loading');
-    let errorMessage = thisForm.querySelector('.error-message');
-
-    if (loading) loading.classList.remove('d-block');
-    if (errorMessage) {
-        errorMessage.innerHTML = error;
-        errorMessage.classList.add('d-block');
-    }
-}
 
 
   /**
