@@ -52,9 +52,9 @@
      
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
+          <li><a class="nav-link scrollto " href="./index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="./about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="./sector.html">Sectors</a></li>
+          <li><a class="nav-link scrollto active" href="./sector.html">Sectors</a></li>
           <li><a class="nav-link scrollto" href="./service.html">Advisory Service</a></li>
           <li><a class="nav-link scrollto" href="./contact-us.html">Contact Us</a></li>
          
@@ -65,117 +65,137 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <div class="carousel-item active" style="background-image: url(assets/img/slide/9.jpg);">
-            <div class="carousel-container">
-              
-            </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/10.jpg);">
-            <div class="carousel-container">
-              <!-- <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Energy</h2>
-                <p class="animate__animated animate__fadeInUp">Hydro power, renewable energy</p>
-                
-              </div> -->
-            </div>
-          </div>
-          <div class="carousel-item" style="background-image: url(assets/img/slide/11.jpg);">
-            <div class="carousel-container">
-              <!-- <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Energy</h2>
-                <p class="animate__animated animate__fadeInUp">Hydro power, renewable energy</p>
-                
-              </div> -->
-            </div>
-          </div>
-
-        </div>
-
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-      </div>
-    </div>
-  </section><!-- End Hero -->
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section class="schedule">
-			<div class="container">
-				<div class="schedule-inner">
-					<div class="row">
-						<div class="col-lg-4 col-md-6 col-12" >
-							<!-- single-schedule -->
-							<div class="single-schedule first">
-								<div class="inner">
-									<div class="icon">
-									</div>
-									<div class="single-content">
-                    <h2 style="color: white;">
-                        <i class="fas fa-cogs"></i> Manufacturing
-                    </h2>
-                    <p>Driving innovation in Consumer Products and Building Materials for sustainable growth and efficiency.</p>
-                </div>
-                
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-12"style="padding: 10px;">
-							<!-- single-schedule -->
-							<div class="single-schedule middle">
-								<div class="inner">
-									
-									<div class="single-content">
-                    <h2 style="color: white;">
-                        <i class="fas fa-building"></i> Infrastructure
-                    </h2>
-                
-                    <p>Building the foundation for Construction, Technology, and Telecom.Enabling innovation and sustainable growth.</p>
-                </div>
-                
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-12 col-12"style="padding: 10px;">
-							<!-- single-schedule -->
-							<div class="single-schedule last">
-								<div class="inner">
-									<div class="icon">
-										<i class="icofont-ui-clock"></i>
-									</div>
-									<div class="single-content">
-                    <h2 style="color: white;">
-                        <i class="fas fa-bolt"></i> Energy
-                    </h2>
-                
-                    <p> Advancing Hydropower and Renewable Energy to power a sustainable, cleaner, and resilient future.</p>
-                </div>
-                
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <section id="services" class="Jok">
+      <style>
+        .derf {
+          text-align: center;
+          width: -webkit-fill-available;
+          margin-top: 20px;
+          }
+    
+        .Jok {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 0.7rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
 
+    .Jok .card {
+      position: relative;
+      flex: 1 1 calc(33.33% - 1rem);
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .Jok .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .Jok .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Card content overlay initially hidden */
+    .Jok .card-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color:#025b9fa2; /* Blue overlay */
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    /* Show card content on hover */
+    .Jok .card:hover .card-content {
+      opacity: 1;
+    }
+
+    .Jok .card-content h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .Jok .card-content p {
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 0 1rem;
+    }
+    
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+          .Jok .card {
+            flex: 1 1 calc(50% - 1rem);
+          }
+        }
+    
+        @media (max-width: 480px) {
+          .Jok .card {
+            flex: 1 1 100%;
+          }
+        }
+      </style>
+      <div class="section-title derf" >
+        <h2>Sectors</h2>
+        <p>We are committed to strategically focused investments that drive innovation and foster long-term growth.</p>
+      </div>
+      <div class="card">
+        <img src="./assets/img/slide/11.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Manufacturing</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/slide/rice-fields-7247360_1920.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Agriculture</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/slide/wind-energy-7394705_1920.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Energy</h3>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/slide/infrastructure-2575482_1920.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Infrastructure</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/slide/hotel-1831072_1920.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Hotel & Resorts</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/slide/mining-440743_1920.jpg">
+        <div class="card-content">
+          <h3 style="color: white;">Mining</h3>
+        </div>
+      </div>
+    </section>
+    
     
 
   </main><!-- End #main -->

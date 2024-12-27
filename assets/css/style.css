@@ -66,7 +66,9 @@ h6 {
   height: 80px;
   border-bottom:1px solid #eee;
 }
-
+#main{
+  margin-top: 60px;
+}
 #header .logo {
   font-size: 18px;
   margin: 0;
